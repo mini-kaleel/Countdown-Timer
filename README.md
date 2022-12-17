@@ -9,4 +9,4 @@ A simple countdown timer for New Year.
 # Live Demo
 https://amazing-tarsier-951f1d.netlify.app
 
-# Sample
+
