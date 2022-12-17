@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Inspiration', cursive; */
+}
+body main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.8)),url(../images/pexels-jonathan-petersson-399610.jpg);
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main p{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 8px;
+}
+main p+h3{
+    margin-top: 10px;
+        font-family: 'Inspiration', cursive;
+        font-size: 50px;
+        font-weight: 550;
+}
+.counter{
+    display: flex;
+    gap:20px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+ 
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.box span{
+    font-size: 10px;
+}
+#seconds{
+   color: rgb(232, 248, 6);
+}
+@media(min-width:576px){
+    main p+h3{
+        font-size: 60px;
+        letter-spacing: 1px;
+        font-weight: 550;
+    }
+    .box{
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+
+    }
+    .box{
+        width: 65px;
+        width: 65px;
+        border-radius: 5px;
+    }
+}
+@media(min-width:768px){
+    main p+h3{
+        font-size: 100px;
+        letter-spacing: 1px;
+        font-weight: 550;
+    }
+    main p{
+        font-size: 14px;
+    }
+    .box{
+        height: 100%;
+        width: 100%;
+        padding: 5px;      
+    }
+    .box{
+        width: 80px;
+        width: 80px;
+        border-radius: 5px;
+    }
+    .box h3{
+        font-size: 30px;
+      
+    }
+    .box span{
+        font-size: 16px;
+    }
+    
+}
